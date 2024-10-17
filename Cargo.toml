@@ -1,0 +1,12 @@
+[package]
+name = "life"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "22.1"
+winit = "0.30"
+log = "0.4"
+env_logger = "0.11"
+pollster = "0.3"
+bytemuck = { version = "1.18", features = [ "derive" ] }
